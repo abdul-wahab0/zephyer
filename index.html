@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/9c1668d95b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="h-[100vh] w-auto main">
+        <!-- =============pre nav bar start================= -->
+        <div class="w-auto h-20 lg:flex justify-around lg:block hidden">
+            <div class="h-20 w-[500px]  flex justify-around items-center">
+                <h1 class="text-gray-500 hover:text-white cursor-pointer"><i class="fa-solid fa-phone"></i> phone+321
+                    123 4567</h1>
+                <h2 class="text-gray-500 hover:text-white cursor-pointer"><i class="fa-solid fa-envelope"></i>
+                    emailinfo@test.com</h2>
+                <h3 class="text-gray-500 hover:text-white cursor-pointer"><i class="fa-solid fa-user"></i> My Account
+                </h3>
+            </div>
+            <div class="h-20 w-[300px]  flex items-center justify-around">
+                <div class="h-10 w-10 rounded-full cursor-pointer hover:bg-blue-600">
+                    <i class="fa-brands fa-facebook text-gray-500  text-2xl ml-2 mt-[3px]"></i>
+                </div>
+                <div class="h-10 w-10 rounded-full cursor-pointer hover:bg-blue-300">
+                    <i class="fa-brands fa-twitter text-gray-500 text-2xl ml-2 mt-[3px]"></i>
+                </div>
+                <div class="h-10 w-10 rounded-full cursor-pointer hover:bg-blue-600">
+                    <i class="fa-brands fa-behance text-gray-500 text-2xl ml-2 mt-[3px]"></i>
+                </div>
+                <div class="h-10 w-10 rounded-full  instagram">
+                    <i class="fa-brands fa-instagram text-gray-500 text-2xl ml-2 mt-[3px]"></i>
+                </div>
+                <div class="h-10 w-10 rounded-full cursor-pointer hover:bg-blue-400">
+                    <i class="fa-brands fa-wikipedia-w text-gray-500 text-2xl ml-2 mt-[3px]"></i>
+                </div>
+                <div class="h-10 w-10 rounded-full cursor-pointer hover:bg-red-600">
+                    <i class="fa-brands fa-soundcloud text-gray-500 text-2xl ml-2 mt-[3px]"></i>
+                </div>
+                <div class="h-10 w-10 rounded-full cursor-pointer hover:bg-black">
+                    <i class="fa-brands fa-deviantart text-gray-500 text-2xl ml-2 mt-[3px]"></i>
+                </div>
+
+            </div>
+        </div>
+        <!-- ==============pre nav end============================= -->
+        <!-- =================nav start =========================== -->
+        <nav class="w-auto h-16 flex lg:justify-around justify-between items-center">
+            <div class=" w-[200px]  ">
+                <h1 class="text-2xl text-white cursor-pointer hover:text-yellow-500"><b>ZEPHYR</b></h1>
+            </div>
+            
+                <ul class="w-[550px]  lg:flex justify-around text-white relative hidden lg:block">
+                    <li class="cursor-pointer text-yellow-500 home relative">HOME
+
+                         <ul class="bg-white h-20 w-28 home1 absolute">
+                            <li class="text-black hover:bg-gray-200 cursor-pointer">HOME 2</li>
+                            <li class="text-black hover:bg-gray-200 cursor-pointer">HOME 3</li>
+                            <li class="text-black hover:bg-gray-200 cursor-pointer">HOME 4</li>
+                        </ul>
+
+                    </li>
+                    <li class="cursor-pointer  hover:text-yellow-500 pages relative">PAGES
+
+                        <ul class="bg-white h-28 w-32 pages1 absolute">
+                            <li class="text-black hover:bg-gray-200 cursor-pointer">About Us</li>
+                            <li class="text-black hover:bg-gray-200 cursor-pointer">Services</li>
+                            <li class="text-black hover:bg-gray-200 cursor-pointer">Our Team</li>
+                            <li class="text-black hover:bg-gray-200 cursor-pointer">contact</li>
+                            <li class="text-black hover:bg-gray-200 cursor-pointer example">Page Example >
+
+                                <ul class="bg-white h-40 w-32 example1 ml-[100px] overflow-hidden">
+                                    <li class="text-black hover:bg-gray-200 cursor-pointer">About Us</li>
+                                    <li class="text-black hover:bg-gray-200 cursor-pointer">Services</li>
+                                    <li class="text-black hover:bg-gray-200 cursor-pointer">Our Team</li>
+                                    <li class="text-black hover:bg-gray-200 cursor-pointer">contact</li>
+                                </ul>
+
+                            </li>
+
+                        </ul>
+
+                     </li>
+                     <li class="cursor-pointer hover:text-yellow-500 relative portfolio">POTRTFOLIO
+
+                        <ul class="absolute h-68 w-[1000px] bg-white ml-[-500px] flex justify-around portfolio1">
+                            <div class=" w-[300px]">
+                                <ul>
+                                    <h1 class="text-black"><b>Portfolio Grids</b></h1>
+                                    <li class="text-black hover:bg-gray-200 cursor-pointer mt-[20px]">Portfolio grid 1
+                                    </li>
+                                    <li class="text-black hover:bg-gray-200 cursor-pointer mt-[20px]">Portfolio grid 2
+                                    </li>
+                                    <li class="text-black hover:bg-gray-200 cursor-pointer mt-[20px]">Portfolio grid 3
+                                    </li>
+                                    <li class="text-black hover:bg-gray-200 cursor-pointer mt-[20px]">Portfolio grid 4
+                                    </li>
+                                    <li class="text-black hover:bg-gray-200 cursor-pointer mt-[20px]">Portfolio grid 5
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class=" w-[300px]">
+                                <ul>
+                                    <h1 class="text-black"><b>Regular Projects</b></h1>
+                                    <li class="text-black hover:bg-gray-200 cursor-pointer mt-[20px]">Single - Project -
+                                        Slider</li>
+                                    <li class="text-black hover:bg-gray-200 cursor-pointer mt-[20px]">Single - Project -
+                                        Image</li>
+                                    <li class="text-black hover:bg-gray-200 cursor-pointer mt-[20px]">Single - Project -
+                                        Video</li>
+                                    <li class="text-black hover:bg-gray-200 cursor-pointer mt-[20px]">Single - Project -
+                                        Gallery</li>
+                                    <li class="text-black hover:bg-gray-200 cursor-pointer mt-[20px]">Single - Project -
+                                        Extended</li>
+                                </ul>
+                            </div>
+                            <div class=" w-[300px]">
+                                <ul>
+                                    <h1 class="text-black"><b>Creative Projects</b></h1>
+                                    <li class="text-black hover:bg-gray-200 cursor-pointer mt-[20px]">Creative - Project
+                                        - Slider</li>
+                                    <li class="text-black hover:bg-gray-200 cursor-pointer mt-[20px]">Creative - Project
+                                        - Image</li>
+                                    <li class="text-black hover:bg-gray-200 cursor-pointer mt-[20px]">Creative - Project
+                                        - Video</li>
+                                    <li class="text-black hover:bg-gray-200 cursor-pointer mt-[20px]">Creative - Project
+                                        - Gallery</li>
+                                    <li class="text-black hover:bg-gray-200 cursor-pointer mt-[20px]">Creative - Project
+                                        - Extended</li>
+                                </ul>
+                            </div>
+
+                        </ul>
+                  </div>
+                 </li> 
+                  <li class="cursor-pointer hover:text-yellow-500 relative blog">BLOG
+                    
+                    <ul class="bg-white h-32 w-40 blog1 absolute">
+                        <li class="text-black hover:bg-gray-200 cursor-pointer">Blog-clasic(1-coulmn)</li>
+                        <li class="text-black hover:bg-gray-200 cursor-pointer">Blog-clasic(2-coulmns)</li>
+                        <li class="text-black hover:bg-gray-200 cursor-pointer">Blog-card(3-coulmns)</li>
+                        <li class="text-black hover:bg-gray-200 cursor-pointer">Blog-card(5-coulmns)</li>
+                    </ul>
+                  </li>
+                 <li class="cursor-pointer hover:text-yellow-500 element">ELEMENTS
+                    <ul class="absolute h-68 w-[1100px] bg-white ml-[-900px] flex justify-around element1">
+                        <div class=" w-[300px]">
+                            <ul>
+                                <li class="text-black hover:bg-gray-200 cursor-pointer mt-[20px]">According & Toggles
+                                </li>
+                                <li class="text-black hover:bg-gray-200 cursor-pointer mt-[20px]">Counter
+                                </li>
+                                <li class="text-black hover:bg-gray-200 cursor-pointer mt-[20px]">Interactive Banner
+                                </li>
+                                <li class="text-black hover:bg-gray-200 cursor-pointer mt-[20px]">Person
+                                </li>
+                                <li class="text-black hover:bg-gray-200 cursor-pointer mt-[20px]">Responsive
+                                </li>
+                                <li class="text-black hover:bg-gray-200 cursor-pointer mt-[20px]">Soocial Links
+                                </li>
+                            </ul>
+                        </div>
+                        <div class=" w-[300px]">
+                            <ul>
+                                <li class="text-black hover:bg-gray-200 cursor-pointer mt-[20px]">Action Box</li>
+                                <li class="text-black hover:bg-gray-200 cursor-pointer mt-[20px]">Flip BOx</li>
+                                <li class="text-black hover:bg-gray-200 cursor-pointer mt-[20px]">Intetractive Text</li>
+                                <li class="text-black hover:bg-gray-200 cursor-pointer mt-[20px]">Popup</li>
+                                <li class="text-black hover:bg-gray-200 cursor-pointer mt-[20px]">Separatior</li>
+                                <li class="text-black hover:bg-gray-200 cursor-pointer mt-[20px]">Tabs & Timeline</li>
+                            </ul>
+                        </div>
+                        <div class=" w-[300px]">
+                            <ul>
+                                <li class="text-black hover:bg-gray-200 cursor-pointer mt-[20px]">Button</li>
+                                <li class="text-black hover:bg-gray-200 cursor-pointer mt-[20px]">Icon Box</li>
+                                <li class="text-black hover:bg-gray-200 cursor-pointer mt-[20px]">Map</li>
+                                <li class="text-black hover:bg-gray-200 cursor-pointer mt-[20px]">Pricing Tables</li>
+                                <li class="text-black hover:bg-gray-200 cursor-pointer mt-[20px]">Sharing Buttons</li>
+                                <li class="text-black hover:bg-gray-200 cursor-pointer mt-[20px]">Vertical Tabs</li>
+                            </ul>
+                        </div>
+                        <div class=" w-[300px]">
+                            <ul>
+                                <li class="text-black hover:bg-gray-200 cursor-pointer mt-[20px]">Chart</li>
+                                <li class="text-black hover:bg-gray-200 cursor-pointer mt-[20px]">Image Slider</li>
+                                <li class="text-black hover:bg-gray-200 cursor-pointer mt-[20px]">Message Box</li>
+                                <li class="text-black hover:bg-gray-200 cursor-pointer mt-[20px]">Progress Bar</li>
+                                <li class="text-black hover:bg-gray-200 cursor-pointer mt-[20px]">Image</li>
+                                <li class="text-black hover:bg-gray-200 cursor-pointer mt-[20px]">Video Player</li>
+                            </ul>
+                        </div>
+
+                    </ul>
+                 </li>
+                 <li class="cursor-pointer hover:text-yellow-500">SHOP</li></ul>
+
+                 <div class="flex gap-2 border-2 border-red-500 w-[100px] ">
+                    <i class="fa-solid text-xl text-red-500 fa-magnifying-glass cursor-pointer hover:text-yellow-500"></i>
+                 
+                    <i class="fa-solid text-xl fa-cart-shopping text-red-500 cursor-pointer hover:text-yellow-500"></i>
+                 </div>
+                
+        
+            
+        </nav>
+        <!-- ==========nav end================ -->
+       <div>
+        <h4 class="text-center text-7xl lg:text-8xl text-white  lg:mt-[80px] mt-[10px] ">Quality Is The Best<br> Business Plan</h4>
+       <div class="text-center  mt-[50px] ">
+        <button class="btn bg-purple-700 text-white h-10 w-36 ">VIEW FEATURES</button>
+        <button class="btn bg-yellow-700 text-white h-10 w-36 ">VIEW PORTFOLIO</button>
+       </div>
+       </div>
+    </section>
+    <!-- ==============section1 end========== -->
+    <!-- =============section 2 start========= -->
+    <section class="lg:h-[80vh] h-auto w-auto">
+        <h1 class="text-4xl text-center pt-[60px]">Zephyr Is A Healthy Mixture Of</h1>
+        <div class="lg:h-[60vh] h-auto w-auto mt-[30px] md:flex justify-around">
+            <div class="lg:h-[58vh] h-auto w-auto lg:w-[30%]">
+                <div class="h-20 w-20 rounded-full bg-purple-700 text-center heart mx-auto">
+                    <i class="fa-solid fa-heart text-center mt-[20px] text-4xl text-white"></i>
+                </div>
+                <h1 class="text-4xl  text-center mt-[20px] hover:text-yellow-500 cursor-pointer">Passion</h1>
+                <p class="mt-[20px] text-center">Lorem ipsum dolor sit amet, consectetur adipiscing<br> elit. Morbi sagittis, sem quis lacinia faucibus</p>
+            </div>
+            
+    
+        <!-- ====== -->
+        
+            <div class="lg:h-[58vh] h-auto w-auto lg:w-[30%]">
+                <div class="h-20 w-20 rounded-full bg-purple-700 mx-auto text-center heart">
+                    <i class="fa-solid fa-computer text-center mt-[20px] text-4xl text-white"></i> 
+                </div>
+                <h1 class="text-4xl text-center mt-[20px] hover:text-yellow-500 cursor-pointer">Technology</h1>
+                <p class="mt-[20px] text-center">Lorem ipsum dolor sit amet, consectetur adipiscing<br> elit. Morbi sagittis, sem quis lacinia faucibus</p>
+            </div>
+            <!-- ++++++++++++++++++ -->
+            
+                <div class="lg:h-[58vh] h-auto w-auto lg:w-[30%]">
+                    <div class="h-20 w-20 rounded-full bg-purple-700 mx-auto text-center heart">
+                        <i class="fa-regular fa-lightbulb text-center mt-[20px] text-4xl text-white"></i>
+                    </div>
+                    <h1 class="text-4xl text-center mt-[20px] hover:text-yellow-500 cursor-pointer">Simplicity</h1>
+                    <p class="mt-[20px] text-center">Lorem ipsum dolor sit amet, consectetur adipiscing<br> elit. Morbi sagittis, sem quis lacinia faucibus</p>
+                </div>
+                
+        
+        </div>
+    </section>
+    <!-- ===============secetion 2 end===================== -->
+    <!-- =================section 3 start================== -->
+    <section class="lg:h-[100vh]  h-auto w-auto sec3">
+     <h1 class="text-4xl text-center pt-[50px]">Details Done Right</h1>
+     <p class="text-center text-lg mt-[20px]">Limitless options beautifully packed in a brand-new premium WordPress theme.</p>
+     <div class="pt-[30px] lg:h-[80vh] h-auto w-auto lg:flex justify-around">
+        <div class="h-[70vh]  lg:w-[48%] w-auto   mobile"></div>
+        <div class="lg:h-[70vh] h-[80vh] w-[90%] lg:w-[48%]">
+         <div class="h-[80px] flex">
+            <div class="h-[50px] w-[60px]">
+                <i class="fa-solid fa-camera text-4xl"></i></div>
+            <div class="h-[80px] w-[600px]">
+                <h1 class="text-2xl">Retina Ready & Fully Responsive</h1>
+                <p class="text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+         </div>
+         <div class="h-[80px] flex pt-[30px] mt-[60px] lg:mt-0">
+            <div class="h-[50px] w-[60px]">
+                <i class="fa-solid fa-image text-4xl"></i></div>
+            <div class="h-[80px] w-[600px]">
+                <h1 class="text-2xl">Four Awesome Header Layouts</h1>
+                <p class="text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+         </div>
+         <div class="h-[80px] flex pt-[60px] mt-[60px] lg:mt-0">
+            <div class="h-[50px] w-[60px]">
+                <i class="fa-solid fa-message text-4xl"></i>
+                </div>
+            <div class="h-[80px] w-[600px]">
+                <h1 class="text-2xl">Quick-To-Install And Easy-To-Use</h1>
+                <p class="text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+         </div>
+        </div>
+     </div>
+    </section>
+    <!-- ================section 3 end ===================== -->
+    <!-- ==============section 4 satrt====================== -->
+    <section class="lg:h-[200vh] h-auto w-full sec4">
+        <h1 class="text-6xl pt-[30px] text-center text-white">Latest Projects</h1>
+        <div class="w-full lg:h-[85%]  h-auto py-16  lg:px-44 px-0 sm:px- sm:grid-cols-2 mt-[50] grid xl:grid-cols-3">
+            <div class="card1 h-[50vh] w-full  border-12 border-blue-600 sm:w-[100%]">
+                <div class="sm:w-[50%] w-full    h-[30vh] bg-purple-700 mx-auto mt-[0px] rounded-xl single">
+                    <h1 class="text-center pt-[150px]">Single Project-Slider</h1>
+                </div>
+            </div>
+            <div class="card2 h-[50vh]">
+                <div class="sm:w-[50%] w-[100%] h-[30vh] bg-yellow-500 mx-auto mt-[0px] rounded-xl single">
+                    <h1 class="text-center pt-[150px]">Creative Project-Slider</h1>
+                </div>
+            </div>
+            <div class="card3 h-[50vh]">
+                <div class="w-[50%] h-[30vh] bg-gray-100 mx-auto mt-[0px] rounded-xl single">
+                    <h1 class="text-center pt-[150px]">Single Project-image</h1>
+                </div>
+            </div>
+            <div class="card4 h-[50vh]">
+                <div class="w-[50%] h-[30vh] bg-orange-600 mx-auto mt-[0px] rounded-xl single">
+                    <h1 class="text-center pt-[150px]">Creative Project-image</h1>
+                </div>
+            </div>
+            <div class="card5 h-[50vh]">
+                <div class="w-[50%] h-[30vh] bg-green-500 mx-auto mt-[0px] rounded-xl single">
+                    <h1 class="text-center pt-[150px]">Single Project-Video</h1>
+                </div>
+            </div>
+            <div class="card6 h-[50vh]">
+                <div class="w-[50%] h-[30vh] bg-cyan-300 mx-auto mt-[0px] rounded-xl single">
+                    <h1 class="text-center pt-[150px]">Creative Project-Video</h1>
+                </div>
+            </div>
+        </div>
+       <div class="text-center">
+         <button class="h-16 w-40   hover:border  cursor-pointer">> View Profile</button></div>
+    </section>
+    <!-- ====================sectin 4 end=========== -->
+    <!-- ====================section 5 start======== -->
+    <section class="lg:h-[80vh]  h-auto w-auto lg:flex justify-around items-center">
+        <div class="md:h-[70vh] h-auto lg:w-[45%] w-full">
+            <h1 class="text-4xl">Wonderful Digital Things<br> Require A Good Mix Of<br> Combined Skills</h1>
+            <p class="mt-[30px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in purus.<br> Praesent viverra, est vitae efficitur auctor, nibh orci varius ligula, gravida molestie<br> enim justo ut diam. Praesent eget congue lacus, ut viverra neque.</p>
+            <div class="flex gap-10">
+                <button class="btn bg-purple-700 text-white h-10 w-36 rounded-xl">SEE FEATURES</button>
+            <button class="btn bg-gray-100  h-10 w-36 rounded-xl">VIEW PORTFOLIO</button>
+            </div>
+            
+        </div>
+        <div class="h-[70vh]  lg:w-[45%] w-full mobilepic"></div>
+    </section>
+    <!-- ============section 5 end================== -->
+    <!-- ==============section 6 strat============== -->
+    <section class="lg:h-[45vh] h-auto w-auto sec6">
+        <h1 class="lg:text-4xl text-3xl  text-white text-center pt-[50px]"> ZEPHYR. New Edge Of The Theme Experience!</h1>
+        <div class="lg:h-[40vh] h-auto w-auto lg:flex justify-around mt-[30px]">
+            <div class="h-40 w-full lg:w-[180px] text-center">
+                <h1 class="text-6xl text-white text-center">72+</h1>
+                <p class=" mt-[10px] text-white">Button combinations</p>
+            </div>
+            <div class="h-40  w-full text-center lg:w-[180px]">
+                <h1 class="text-6xl text-white text-center">250</h1>
+                <p class=" mt-[10px] text-white">Portfolio combinations</p>
+            </div>
+            <div class="h-40  lg:w-[180px] w-full text-center">
+                <h1 class="text-6xl text-white text-center">657</h1>
+                <p class=" mt-[10px] ml-[30px] text-white">Google Fonts</p>
+            </div>
+            <div class="h-40 w-full text-center lg:w-[180px]">
+                <h1 class="text-6xl text-white text-center">80+</h1>
+                <p class=" mt-[10px] text-white">IconBox combinations</p>
+            </div>
+        </div>
+    </section>
+     <!-- ============section 6 end================== -->
+    <!-- ==============section 7 strat============== -->
+    <section class="lg:h-[130vh] h-auto w-auto">
+        <div class="w-full lg:h-[600px] h-auto py-16 px-4   md:grid-cols-2 grid-col-1 mt-[50] grid xl:grid-cols-3">
+            <div class="div lg:h-[40vh] h-auto flex lg:gap-0 gap-10">
+                <div class="w-[80px]  h-[80px] bg-yellow-500  mt-[0px] rounded-full mt-[30px]">
+                    <i class="fa-solid fa-star ml-[30px] text-2xl mt-[20px] text-white"></i>
+                </div> 
+                <div class="lg:h-[35vh] h-auto w-[80%] mt-[20px] ">
+                    <h1 class="text-2xl">Modern Design & Trendy Look</h1>
+                    <p class="text-xl mt-[20px]">Lorem ipsum dolor sit amet. Proin non<br> blandit nibh. Sed eget tortor tincidunt,<br> auctor sem eget.</p>
+                </div>
+            </div>
+            <div class="div lg:h-[40vh] h-auto flex lg:gap-0 gap-10">
+                <div class="w-[80px] h-[80px] bg-yellow-500  mt-[0px] rounded-full mt-[30px] ">
+                    <i class="fa-solid fa-a ml-[30px] text-2xl mt-[20px] text-white"></i>
+                </div> 
+                <div class="lg:h-[35vh] h-auto w-[80%] mt-[20px] ">
+                    <h1 class="text-2xl">Advanced Typography Options</h1>
+                    <p class="text-xl mt-[20px]">Lorem ipsum dolor sit amet. Proin non<br> blandit nibh. Sed eget tortor tincidunt,<br> auctor sem eget.</p>
+            </div>
+        </div>
+            <div class="div  lg:h-[40vh] h-auto flex lg:gap-0 gap-10">
+                <div class="w-[80px] h-[80px] bg-yellow-500  mt-[0px] rounded-full mt-[30px] ">
+                    <i class="fa-solid fa-mobile ml-[30px] text-2xl mt-[20px] text-white"></i>
+                </div> 
+                <div class="lg:h-[35vh] h-auto w-[80%] mt-[20px] ">
+                    <h1 class="text-2xl">Ultra Responsive & Retina Ready</h1>
+                    <p class="text-xl mt-[20px]">Lorem ipsum dolor sit amet. Proin non<br> blandit nibh. Sed eget tortor tincidunt,<br> auctor sem eget.</p>
+            </div>
+            </div>
+            <div class="div lg:h-[40vh] h-auto flex lg:gap-0 gap-10">
+                <div class="w-[80px] h-[80px] bg-yellow-500  mt-[0px] rounded-full mt-[30px] ">
+                    <i class="fa-solid fa-thumbs-up ml-[30px] text-2xl mt-[20px] text-white"></i>
+                </div> 
+                <div class="lg:h-[35vh] h-auto w-[80%] mt-[20px] ">
+                    <h1 class="text-2xl">Focus On Usability & User-Experience</h1>
+                    <p class="text-xl mt-[20px]">Lorem ipsum dolor sit amet. Proin non<br> blandit nibh. Sed eget tortor tincidunt,<br> auctor sem eget.</p>
+            </div>
+            </div>
+            <div class="div lg:h-[40vh] h-auto flex lg:gap-0 gap-10">
+                <div class="w-[80px] h-[80px] bg-yellow-500  mt-[0px] rounded-full mt-[30px] ">
+                    <i class="fa-solid fa-gear ml-[30px] text-2xl mt-[20px] text-white"></i>
+                </div> 
+                <div class="lg:h-[35vh] h-auto w-[80%] mt-[20px] ">
+                    <h1 class="text-2xl">Big Quantity Of Flexible Elements</h1>
+                    <p class="text-xl mt-[20px]">Lorem ipsum dolor sit amet. Proin non<br> blandit nibh. Sed eget tortor tincidunt,<br> auctor sem eget.</p>
+            </div>
+            </div>
+            <div class="div lg:h-[40vh] h-auto flex lg:gap-0 gap-10 ">
+                <div class="w-[80px] h-[80px] bg-yellow-500  mt-[0px] rounded-full mt-[30px] ">
+                    <i class="fa-solid fa-palette ml-[30px] text-2xl mt-[20px] text-white"></i>
+                </div> 
+                <div class="lg:h-[35vh] h-auto w-[80%] mt-[20px]  ">
+                    <h1 class="text-2xl">Extensive Style Options & Unlimited Colors</h1>
+                    <p class="text-xl mt-[20px]">Lorem ipsum dolor sit amet. Proin non<br> blandit nibh. Sed eget tortor tincidunt,<br> auctor sem eget.</p>
+            </div>
+            </div>
+        </div>
+    </section>
+    <!-- ============section 7 end================== -->
+    <!-- ==============section 8 strat============== -->
+    <section class="lg:h-[120vh] h-auto  w-full lg:flex justify-around">
+     <div class="h-[100vh] lg:w-[45%] w-[100%] img"></div>
+      <div class="lg:h-[100vh] h-auto lg:w-[45%] w-auto">
+        <h1 class="text-4xl"><b>Zephyr</b> Is A <span>Creative Studio</span> Dedicated</h1>
+        <h2 class="text-4xl mt-[20px]">To Crafting <span>Meaninful Image</span></h2>
+        <div class="h-[36vh] w-auto flex">
+            <div class="h-[36vh] w-[50%] flex">
+                <div class="h-10 w-10">
+                    <i class="fa-solid fa-heart text-2xl"></i>
+                </div>
+                <div class="lg:h-[30vh] h-auto w-auto">
+                    <h1 class="text-xl">Clear Documentation</h1>
+                    <p>I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit ullamcorper.</p>
+                </div>
+            </div>
+            <div class="h-[36vh] w-[50%]">
+                <div class="h-[36vh] w-[100%] flex">
+                    <div class="h-10 w-10 ">
+                        <i class="fa-solid fa-thumbs-up  text-2xl"></i> 
+                    </div>
+                    <div class="lg:h-[30vh] h-auto w-auto ">
+                        <h1 class="text-xl">Clear Documentation</h1>
+                        <p>I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit ullamcorper.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="lg:h-[36vh] h-auto w-auto flex mt-[40px] lg:mt-0">
+            <div class="lg:h-[36vh] h-auto w-[50%]">
+                <div class="lg:h-[36vh] h-auto w-[100%]  flex">
+                    <div class="h-10 w-10">
+                        <i class="fa-solid fa-palette text-2xl "></i>
+                    </div>
+                    <div class="lg:h-[30vh] h-auto w-auto">
+                        <h1 class="text-xl">lear Documentation</h1>
+                        <p>I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit ullamcorper.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="lg:h-[36vh] h-auto w-[50%]">
+                <div class="lg:h-[36vh] h-auto w-[100%]  flex">
+                    <div class="h-10 w-10 ">
+                        <i class="fa-solid fa-a  text-2xl"></i>
+                    </div>
+                    <div class="lg:h-[30vh] h-auto w-auto">
+                        <h1 class="text-xl">lear Documentation</h1>
+                        <p>I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit ullamcorper.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+     </div>
+    </section>
+       <!-- ============section 8 end================== -->
+    <!-- ==============section 9 strat============== -->
+    <section class="lg:h-[30vh] h-auto w-auto bg-purple-700 lg:flex items-center">
+        <div class="h-[30vh] w-[60%] lg:mx-0 mx-auto  text-center">
+            <h1 class="text-4xl text-white mt-[70px] ">ZEPHYR. Brilliant Customizable Details!</h1>
+        </div>
+       <div class="lg:mx-0 text-center">
+        <button class="btn bg-gray-100  h-16 w-40 rounded-xl ">VIEW PORTFOLIO</button>
+       </div>
+
+    </section>
+     <!-- ============section 9 end================== -->
+     <!-- ==============section footer strat========= -->
+     <section class="lg:h-[80vh] h-auto w-auto lg:flex justify-around fot">
+        <div class="h-[80vh] w-[30%]">
+            <h1 class="text-gray-400  text-2xl">Some Text</h1>
+            <p class="text-gray-400 mt-[60px]"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida tortor, vel interdum mi sapien ut justo. Nulla varius consequat magna, id molestie ipsum volutpat quis. Suspendisse consectetur fringilla suctus.</p>
+            <div class="h-[90px] w-[400px] mt-[50px] flex">
+                <div class="h-10 w-10 rounded-full cursor-pointer hover:bg-blue-600">
+                    <i class="fa-brands fa-facebook text-gray-500  text-2xl ml-2 mt-[3px]"></i>
+                </div>
+                <div class="h-10 w-10 rounded-full cursor-pointer hover:bg-blue-300">
+                    <i class="fa-brands fa-twitter text-gray-500 text-2xl ml-2 mt-[3px]"></i>
+                </div>
+                <div class="h-10 w-10 rounded-full cursor-pointer hover:bg-blue-600">
+                    <i class="fa-brands fa-behance text-gray-500 text-2xl ml-2 mt-[3px]"></i>
+                </div>
+                <div class="h-10 w-10 rounded-full  instagram">
+                    <i class="fa-brands fa-instagram text-gray-500 text-2xl ml-2 mt-[3px]"></i>
+                </div>
+                <div class="h-10 w-10 rounded-full cursor-pointer hover:bg-blue-400">
+                    <i class="fa-brands fa-wikipedia-w text-gray-500 text-2xl ml-2 mt-[3px]"></i>
+                </div>
+                
+
+            </div>
+        </div>
+        <div class="h-[80vh] w-[30%]">
+            <h1 class="text-2xl text-gray-400">Reacent Posts</h1>
+            <div class="h-[50px] w-[400px] mt-[60px]">
+                <h1 class="hover:text-red-500 text-gray-400">This is a Single Interesting Post</h1>
+                <p class="text-gray-600 mt-[5px]">April 19, 2018 </p>
+                
+            </div>
+            <div class="h-[50px] w-[400px] mt-[10px]">
+                <h1 class="hover:text-red-500 text-gray-400">Photography is the Science</h1>
+                <p class="text-gray-600 mt-[5px]">February 27, 2016</p>
+                
+            </div>
+            <div class="h-[50px] w-[400px] mt-[20px]">
+                <h1 class="hover:text-red-500 text-gray-400">This Post Looks Beautiful even with Long<br> Interesting Title</h1>
+                <p class="text-gray-600 mt-[5px]">
+                    September 12, 2015 </p>
+                
+            </div>
+            <div class="h-[50px] w-[400px] mt-[40px]">
+                <h1 class="hover:text-red-500 text-gray-400">This is a Sticky Post</h1>
+                <p class="text-gray-600 mt-[5px]">September 15, 2014</p>
+                
+            </div>
+        </div>
+        <div class="h-[80vh] w-[30%]">
+            <h1 class="text-gray-400 text-2xl">Serach Something</h1>
+            <input class="bg-gray-600 h-10 w-96 mt-[60px]" type="text" placeholder="search">
+            <div class="h-[200px] w-[400px] mt-[20px]">
+                <h1 class="text-2xl text-gray-400">Mountain View, CA 94043, US</h1>
+                <h2 class="text-2xl text-gray-400 mt-[20px]">Info@example.Com</h2>
+                <h3 class="text-2xl text-gray-400 mt-[20px]">+321 123 4567</h3>
+            </div>
+        </div>
+     </section>
+        <!-- ============section footer end================== -->
+     <!-- ==============section last sec strat========= -->
+     <div class="h-[100px] w-auto bg-black flex items-center lg:block hidden">
+        <div class="h-[60px] w-[48%]">
+            <h1 class="text-2xl text-gray-400">© 2021 All rights reserved. ZEPHYR theme by UpSolution</h1>
+        </div>
+        <div class="h-[60px] w-[38%]">
+            <ul class="flex text-gray-400 justify-between text-xl">
+                <li>Home</li>
+                <li>About</li>
+                <li>Portfolio</li>
+                <li>Blog</li>
+            
+            </ul>
+        </div>
+     </div>
+</body>
+
+</html>

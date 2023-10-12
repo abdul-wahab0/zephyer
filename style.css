@@ -1,0 +1,160 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./imges/rename.jpg);
+    background-size: 100% 100%;
+    
+}
+.instagram:hover{
+    background-image: linear-gradient(rgba(231, 112, 112, 0.913),rgb(33, 194, 97));
+    cursor: pointer;
+}
+.home1{
+    visibility: hidden;
+}
+.home:hover .home1{
+    visibility: visible;
+    cursor: pointer;
+}
+.pages1{
+    visibility: hidden;
+}
+.pages:hover .pages1{
+    visibility: visible;
+    cursor: pointer;
+}
+.example1{
+    visibility: hidden;
+}
+.example:hover .example1{
+    visibility: visible;
+    cursor: pointer;
+}
+.portfolio1{
+    visibility: hidden;
+}
+.portfolio:hover .portfolio1{
+    visibility: visible;
+    cursor: pointer;
+}
+.btn:hover{
+    box-shadow: 1px 1px 20px 3px rgba(83, 83, 80);
+}
+.heart:hover{
+    box-shadow: 1px 1px 12px 3px rgba(83, 83, 80);  
+}
+.sec3{
+    background-color: rgb(245, 245, 245);
+}
+.mobile{
+    background-image: url(./imges/A04\ \(1\).png);
+    background-size: 100% 100%;
+}
+.blog1{
+    visibility: hidden;
+}
+.blog:hover .blog1{
+    visibility: visible;
+    cursor: pointer;
+}
+.element1{
+    visibility: hidden;
+}
+.element:hover .element1{
+    visibility: visible;
+    cursor: pointer;
+}
+.sec4{
+    background-image: url(./imges/A05\ \(1\).jpg);
+    background-size: 100% 100%;
+}
+.card1{
+    background-image: url(./imges/A06.jpg);
+    background-size: 100% 100%;
+}
+.card2{
+    background-image: url(./imges/A07.jpg);
+    background-size: 100% 100%;
+}
+.card3{
+    background-image: url(./imges/A08.jpg);
+    background-size: 100% 100%;
+}
+.card4{
+    background-image: url(./imges/A09.jpg);
+    background-size: 100% 100%;
+}
+.card5{
+    background-image: url(./imges/A10.jpg);
+    background-size: 100% 100%;
+}
+.card6{
+    background-image: url(./imges/A11.jpg);
+    background-size: 100% 100%;
+}
+.single{
+    visibility: hidden;
+}
+.card1:hover .single{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    visibility: visible;
+    transition-duration: 1s;
+}
+.card2:hover .single{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    visibility: visible;
+    transition-duration: 1s;
+}
+.card3:hover .single{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    visibility: visible;
+    transition-duration: 1s;
+}
+.card4:hover .single{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    visibility: visible;
+    transition-duration: 1s;
+}
+.card5:hover .single{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    visibility: visible;
+    transition-duration: 1s;
+}
+.card6:hover .single{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    visibility: visible;
+    transition-duration: 1s;
+}
+.mobilepic{
+    background-image: url(./imges/A12.png);
+    background-size: 100% 100%;
+}
+.sec6{
+    background: url(./imges/A13.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.img{
+    background-image: url(./imges/A14.jpg);
+    background-size: 100% 100%;
+}
+span{
+    color: green;
+}
+.fot{
+    background-color: rgb(30, 30, 30);
+}
